@@ -1,0 +1,576 @@
+Archive member included because of file (symbol)
+
+d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+                              d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm32u4.o (exit)
+d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_copy_data.o)
+                              m_bus.o (__do_copy_data)
+d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_clear_bss.o)
+                              m_bus.o (__do_clear_bss)
+d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(itoa.o)
+                              m_usb.o (itoa)
+d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(ltoa.o)
+                              m_usb.o (ltoa)
+d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(ultoa.o)
+                              m_usb.o (ultoa)
+d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(utoa.o)
+                              m_usb.o (utoa)
+d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(strrev.o)
+                              d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(itoa.o) (strrev)
+d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_udivmodhi4.o)
+                              d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(itoa.o) (__udivmodhi4)
+d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_udivmodsi4.o)
+                              d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(ltoa.o) (__udivmodsi4)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm32u4.o
+LOAD m_bus.o
+LOAD m_rf.o
+LOAD m_usb.o
+LOAD Wireless.o
+LOAD wirelessX.o
+START GROUP
+LOAD d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libm.a
+END GROUP
+LOAD d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a
+LOAD d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a
+LOAD d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x14fa
+ *(.vectors)
+ .vectors       0x00000000       0xac d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm32u4.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table
+                0x000000ac       0x82 m_usb.o
+ *(.progmem*)
+ .progmem.data  0x0000012e       0xb3 m_usb.o
+                0x000001e2                . = ALIGN (0x2)
+ *fill*         0x000001e1        0x1 00
+                0x000001e2                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000001e2        0x0 linker stubs
+ *(.trampolines*)
+                0x000001e2                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000001e2                __ctors_start = .
+ *(.ctors)
+                0x000001e2                __ctors_end = .
+                0x000001e2                __dtors_start = .
+ *(.dtors)
+                0x000001e2                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000001e2        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm32u4.o
+                0x000001e2                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000001e2        0xc d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm32u4.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000001ee       0x16 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_copy_data.o)
+                0x000001ee                __do_copy_data
+ .init4         0x00000204       0x10 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_clear_bss.o)
+                0x00000204                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000214        0x8 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm32u4.o
+ *(.init9)
+ *(.text)
+ .text          0x0000021c        0x4 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm32u4.o
+                0x0000021c                __vector_38
+                0x0000021c                __vector_22
+                0x0000021c                __vector_28
+                0x0000021c                __vector_1
+                0x0000021c                __vector_32
+                0x0000021c                __vector_34
+                0x0000021c                __vector_24
+                0x0000021c                __vector_12
+                0x0000021c                __bad_interrupt
+                0x0000021c                __vector_6
+                0x0000021c                __vector_31
+                0x0000021c                __vector_35
+                0x0000021c                __vector_39
+                0x0000021c                __vector_23
+                0x0000021c                __vector_30
+                0x0000021c                __vector_25
+                0x0000021c                __vector_13
+                0x0000021c                __vector_17
+                0x0000021c                __vector_19
+                0x0000021c                __vector_7
+                0x0000021c                __vector_41
+                0x0000021c                __vector_27
+                0x0000021c                __vector_5
+                0x0000021c                __vector_33
+                0x0000021c                __vector_37
+                0x0000021c                __vector_4
+                0x0000021c                __vector_9
+                0x0000021c                __vector_2
+                0x0000021c                __vector_21
+                0x0000021c                __vector_15
+                0x0000021c                __vector_36
+                0x0000021c                __vector_29
+                0x0000021c                __vector_40
+                0x0000021c                __vector_8
+                0x0000021c                __vector_26
+                0x0000021c                __vector_14
+                0x0000021c                __vector_16
+                0x0000021c                __vector_18
+                0x0000021c                __vector_20
+                0x0000021c                __vector_42
+ .text          0x00000220      0x15e m_bus.o
+                0x00000220                m_bus_init
+                0x00000242                twi_read_byte
+                0x00000258                twi_stop
+                0x00000260                twi_wait_for_ack
+                0x00000288                twi_send_byte
+                0x000002a6                twi_start
+                0x000002fe                m_write_register
+                0x0000033c                m_read_register
+ .text          0x0000037e      0x21a m_rf.o
+                0x0000037e                m_rf_open
+                0x0000042a                m_rf_read
+                0x000004ec                m_rf_send
+ .text          0x00000598      0xab6 m_usb.o
+                0x00000598                m_usb_init
+                0x000005ca                m_usb_isconnected
+                0x000005d0                m_usb_rx_char
+                0x0000060c                m_usb_rx_available
+                0x0000062a                m_usb_rx_flush
+                0x00000656                m_usb_tx_char
+                0x0000070e                usb_serial_putchar_nowait
+                0x00000750                usb_serial_write
+                0x00000a0a                m_usb_tx_push
+                0x00000a2a                usb_serial_get_stopbits
+                0x00000a30                usb_serial_get_paritytype
+                0x00000a36                usb_serial_get_numbits
+                0x00000a3c                usb_serial_get_control
+                0x00000a42                usb_serial_set_control
+                0x00000a92                __vector_10
+                0x00000b0e                __vector_11
+                0x00000e2a                print_P
+                0x00000e62                phex1
+                0x00000e74                phex
+                0x00000e8c                m_usb_tx_hex
+                0x00000ea0                m_usb_tx_hexchar
+                0x00000ea6                m_usb_tx_int
+                0x00000f12                m_usb_tx_uint
+                0x00000f76                m_usb_tx_long
+                0x00000fe2                m_usb_tx_ulong
+ .text          0x0000104e      0x174 Wireless.o
+                0x0000104e                main
+                0x00001152                __vector_3
+ .text          0x000011c2      0x188 wirelessX.o
+                0x000011c2                smallDelay
+                0x000011d8                wirelessinitial
+                0x000011e8                wireless_int
+                0x00001242                wireless_uint
+                0x0000129c                wireless_char
+                0x000012e4                wireless_string
+ .text          0x0000134a        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+ .text          0x0000134a        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_copy_data.o)
+ .text          0x0000134a        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_clear_bss.o)
+ .text          0x0000134a        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .text          0x0000134a        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(ltoa.o)
+ .text          0x0000134a        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(ultoa.o)
+ .text          0x0000134a        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(utoa.o)
+ .text          0x0000134a        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(strrev.o)
+ .text          0x0000134a        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_udivmodhi4.o)
+ .text          0x0000134a        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_udivmodsi4.o)
+                0x0000134a                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x0000134a        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x0000134a        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000134a        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_clear_bss.o)
+ .text.avr-libc
+                0x0000134a       0x42 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(itoa.o)
+                0x0000134a                itoa
+ .text.avr-libc
+                0x0000138c       0x68 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(ltoa.o)
+                0x0000138c                ltoa
+ .text.avr-libc
+                0x000013f4       0x4a d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(ultoa.o)
+                0x000013f4                ultoa
+ .text.avr-libc
+                0x0000143e       0x2c d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(utoa.o)
+                0x0000143e                utoa
+ .text.avr-libc
+                0x0000146a       0x20 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(strrev.o)
+                0x0000146a                strrev
+ .text.libgcc   0x0000148a       0x28 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_udivmodhi4.o)
+                0x0000148a                __udivmodhi4
+ .text.libgcc   0x000014b2       0x44 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_udivmodsi4.o)
+                0x000014b2                __udivmodsi4
+                0x000014f6                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000014f6        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+                0x000014f6                _exit
+                0x000014f6                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000014f6        0x4 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x000014fa                _etext = .
+
+.data           0x00800100        0x8 load address 0x000014fa
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm32u4.o
+ .data          0x00800100        0x0 m_bus.o
+ .data          0x00800100        0x0 m_rf.o
+ .data          0x00800100        0x7 m_usb.o
+ .data          0x00800107        0x0 Wireless.o
+ .data          0x00800107        0x0 wirelessX.o
+ .data          0x00800107        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+ .data          0x00800107        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800107        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00800107        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .data          0x00800107        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(ltoa.o)
+ .data          0x00800107        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(ultoa.o)
+ .data          0x00800107        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(utoa.o)
+ .data          0x00800107        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(strrev.o)
+ .data          0x00800107        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_udivmodhi4.o)
+ .data          0x00800107        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_udivmodsi4.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800108                . = ALIGN (0x2)
+ *fill*         0x00800107        0x1 00
+                0x00800108                _edata = .
+                0x00800108                PROVIDE (__data_end, .)
+
+.bss            0x00800108        0xe
+                0x00800108                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800108        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm32u4.o
+ .bss           0x00800108        0x0 m_bus.o
+ .bss           0x00800108        0x0 m_rf.o
+ .bss           0x00800108        0x4 m_usb.o
+ .bss           0x0080010c        0xa Wireless.o
+                0x0080010c                buffer
+                0x00800114                ConvertFinishFlag
+ .bss           0x00800116        0x0 wirelessX.o
+ .bss           0x00800116        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+ .bss           0x00800116        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00800116        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00800116        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .bss           0x00800116        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(ltoa.o)
+ .bss           0x00800116        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(ultoa.o)
+ .bss           0x00800116        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(utoa.o)
+ .bss           0x00800116        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(strrev.o)
+ .bss           0x00800116        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x00800116        0x0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_udivmodsi4.o)
+ *(.bss*)
+ *(COMMON)
+                0x00800116                PROVIDE (__bss_end, .)
+                0x000014fa                __data_load_start = LOADADDR (.data)
+                0x00001502                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800116        0x0
+                0x00800116                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800116                PROVIDE (__noinit_end, .)
+                0x00800116                _end = .
+                0x00800116                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000      0xef4
+ *(.stab)
+ .stab          0x00000000      0x6cc d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm32u4.o
+ .stab          0x000006cc      0x1b0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(itoa.o)
+                                0x1bc (size before relaxing)
+ .stab          0x0000087c      0x294 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(ltoa.o)
+                                0x2a0 (size before relaxing)
+ .stab          0x00000b10      0x1e0 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(ultoa.o)
+                                0x1ec (size before relaxing)
+ .stab          0x00000cf0      0x12c d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(utoa.o)
+                                0x138 (size before relaxing)
+ .stab          0x00000e1c       0xd8 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a(strrev.o)
+                                 0xe4 (size before relaxing)
+
+.stabstr        0x00000000      0x281
+ *(.stabstr)
+ .stabstr       0x00000000      0x281 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm32u4.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x140
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 m_bus.o
+ .debug_aranges
+                0x00000020       0x20 m_rf.o
+ .debug_aranges
+                0x00000040       0x20 m_usb.o
+ .debug_aranges
+                0x00000060       0x20 Wireless.o
+ .debug_aranges
+                0x00000080       0x20 wirelessX.o
+ .debug_aranges
+                0x000000a0       0x20 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+ .debug_aranges
+                0x000000c0       0x20 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_copy_data.o)
+ .debug_aranges
+                0x000000e0       0x20 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_clear_bss.o)
+ .debug_aranges
+                0x00000100       0x20 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_udivmodhi4.o)
+ .debug_aranges
+                0x00000120       0x20 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_udivmodsi4.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x16e0
+ *(.debug_info)
+ .debug_info    0x00000000      0x1d4 m_bus.o
+ .debug_info    0x000001d4      0x170 m_rf.o
+ .debug_info    0x00000344      0xb2a m_usb.o
+ .debug_info    0x00000e6e      0x214 Wireless.o
+ .debug_info    0x00001082      0x20d wirelessX.o
+ .debug_info    0x0000128f       0xdd d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+ .debug_info    0x0000136c       0xdd d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_copy_data.o)
+ .debug_info    0x00001449       0xdd d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_clear_bss.o)
+ .debug_info    0x00001526       0xdd d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_udivmodhi4.o)
+ .debug_info    0x00001603       0xdd d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_udivmodsi4.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0x63b
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0xd9 m_bus.o
+ .debug_abbrev  0x000000d9       0xac m_rf.o
+ .debug_abbrev  0x00000185      0x1cf m_usb.o
+ .debug_abbrev  0x00000354      0x17e Wireless.o
+ .debug_abbrev  0x000004d2      0x105 wirelessX.o
+ .debug_abbrev  0x000005d7       0x14 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+ .debug_abbrev  0x000005eb       0x14 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_copy_data.o)
+ .debug_abbrev  0x000005ff       0x14 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_clear_bss.o)
+ .debug_abbrev  0x00000613       0x14 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_udivmodhi4.o)
+ .debug_abbrev  0x00000627       0x14 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_udivmodsi4.o)
+
+.debug_line     0x00000000      0xb91
+ *(.debug_line)
+ .debug_line    0x00000000      0x12a m_bus.o
+ .debug_line    0x0000012a      0x18e m_rf.o
+ .debug_line    0x000002b8      0x3d4 m_usb.o
+ .debug_line    0x0000068c      0x1ae Wireless.o
+ .debug_line    0x0000083a       0x6e wirelessX.o
+ .debug_line    0x000008a8       0x88 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+ .debug_line    0x00000930       0x91 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_copy_data.o)
+ .debug_line    0x000009c1       0x8e d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_clear_bss.o)
+ .debug_line    0x00000a4f       0x9a d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_udivmodhi4.o)
+ .debug_line    0x00000ae9       0xa8 d:/program/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_udivmodsi4.o)
+
+.debug_frame    0x00000000      0x588
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xb8 m_bus.o
+ .debug_frame   0x000000b8       0x6c m_rf.o
+ .debug_frame   0x00000124      0x314 m_usb.o
+ .debug_frame   0x00000438       0x8c Wireless.o
+ .debug_frame   0x000004c4       0xc4 wirelessX.o
+
+.debug_str      0x00000000      0x5fa
+ *(.debug_str)
+ .debug_str     0x00000000      0x116 m_bus.o
+                                0x161 (size before relaxing)
+ .debug_str     0x00000116       0x61 m_rf.o
+                                0x120 (size before relaxing)
+ .debug_str     0x00000177      0x385 m_usb.o
+                                0x47f (size before relaxing)
+ .debug_str     0x000004fc       0x94 Wireless.o
+                                0x169 (size before relaxing)
+ .debug_str     0x00000590       0x6a wirelessX.o
+                                0x12e (size before relaxing)
+
+.debug_loc      0x00000000     0x1d8e
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x1cb m_bus.o
+ .debug_loc     0x000001cb      0x1e9 m_rf.o
+ .debug_loc     0x000003b4     0x1688 m_usb.o
+ .debug_loc     0x00001a3c      0x17b Wireless.o
+ .debug_loc     0x00001bb7      0x1d7 wirelessX.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(Wireless.elf elf32-avr)
+LOAD linker stubs
+
+.debug_ranges   0x00000000       0x80
+ .debug_ranges  0x00000000       0x50 m_usb.o
+ .debug_ranges  0x00000050       0x30 Wireless.o
